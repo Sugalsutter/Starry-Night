@@ -1,2 +1,5 @@
 # OS Generated Files
 .DS_Store
+
+# No need to upload image files to GitHub
+data/raw/
