@@ -30,11 +30,11 @@ class Loader():
         self.image_dir = image_dir
         self.solutions_file = solutions_files
 
-    # Returns a batch of (test_data, target) pairs of a given size.
+    # Returns a batch of (training_data, target_value) pairs of a given size.
     #
     # Input
-    # size (integer): the number of (test_data, target) pairs to return
+    # size (integer): the number of (training_data, target_value) pairs to return
     #
-    # Returns array of (test_data, target) pairs.
+    # Returns array of (training_data, target_value) pairs.
     def get_batch(size):
         pass
